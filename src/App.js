@@ -27,7 +27,12 @@ function App() {
         <div className='content1'>
           <h1>Unlimited movies, TV shows and more</h1>
           <p>Watch anywhere. Cancel anytime.</p>
-          <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+
+          <form>
+            <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+            <input type='text' placeholder='Email Address' />
+            <button type='submit'>Get Started</button>
+          </form>
         </div>
       </div>
     </div>
